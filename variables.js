@@ -49,4 +49,10 @@ console.log(parseInt("42")); // 42
 console.log(parseInt("42.5")); // 42
 console.log(parseInt("abc")); // NaN
 
+// Usando interpolação de strings com template literals:    
+let usuario = "Ana ";
+let sobreNome = "Silva";
+console.log(`Olá, ${usuario} ${sobreNome}! Bem-vinda ao JavaScript!`);
+console.log("Olá, " + usuario + " " + sobreNome + "! Bem-vinda a Fiap!");
+console.log("Olá,", usuario, sobreNome, "! Bem-vinda a Alura");
 
