@@ -27,3 +27,19 @@ while (contador < listaDeCarros.length) {
     }
     contador++;
 }
+
+// Usando o for para iterar sobre o array
+for (let i = 0; i < listaDeCarros.length; i++) {
+    if (listaDeCarros[i] === carroPretendido) {
+        console.log("Carro encontrado: " + listaDeCarros[i]);
+        break; // Encerra o loop quando o carro pretendido é encontrado
+    }
+}
+
+// Usando o for...of para iterar sobre o array
+for (const carro of listaDeCarros) {
+    if (carro === carroPretendido) {
+        console.log("Carro encontrado: " + carro);
+        break; // Encerra o loop quando o carro pretendido é encontrado
+    }
+}   
