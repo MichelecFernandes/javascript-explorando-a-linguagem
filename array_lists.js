@@ -24,7 +24,7 @@ console.log(listaDeCarros); // Aston Martin, Ferrari, Lamborghini, Porsche, Buga
 listaDeCarros.shift();
 console.log(listaDeCarros); // Ferrari, Lamborghini, Porsche, Bugatti
 
-// RRemovendo um elemento específico do array
+// Removendo um elemento específico do array
 listaDeCarros.splice(2, 1); // Remove o elemento no índice 2 (Porsche)
 console.log(listaDeCarros); // Ferrari, Lamborghini, Bugatti
 
